@@ -9,9 +9,9 @@
 	<h1><a href="#/home">震邦笔记</a></h1>
 	<p>只是一个普通小男孩的博客</p>
 </header>
-<script src="i/jquery.marquee.min.js"></script>
 <script src="i/jquery.min.js"></script>
-<script> var system ={}; var p = navigator.platform; system.win = p.indexOf("Win") == 0; system.mac = p.indexOf("Mac") == 0; system.x11 = (p == "X11") || (p.indexOf("Linux") == 0); if(system.win||system.mac||system.xll){  document.getElementById('canvas').innerHTML='<script src="i/canvas.js"><\/script>'; }
+<script src="i/jquery.marquee.min.js"></script>
+<script> var system ={}; var p = navigator.platform; system.win = p.indexOf("Win") == 0; system.mac = p.indexOf("Mac") == 0; system.x11 = (p == "X11") || (p.indexOf("Linux") == 0); if(system.win||system.mac||system.xll){  $('#canvas').html('<script src="i/canvas.js"><\/script>'); }
 </script>
 <div id="canvas"></div>
 <section>
