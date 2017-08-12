@@ -3,6 +3,7 @@
 <title>震邦笔记</title>
 <meta name="viewport" content="user-scalable=no,width=device-width">
 <link rel="stylesheet" href="i/i.css">
+<link rel="stylesheet" href="i/player.css">
 <header>
 	<div class="blog-logo"><center><img src="https://cdn.v2ex.com/gravatar/905025cd70b177a23e7ffc5250a6ffbd?s=200" /></center></div>
 	<h1><a href="#/home">震邦笔记</a></h1>
@@ -26,7 +27,53 @@
 	<a class="home" href="#/home">🏠 返回首页</a>
 	</xmp>
 </article>
-<footer>Copyright &copy; 2017 王震邦<br /><audio src="https://zhenbangwang.oss-cn-shanghai.aliyuncs.com/bgm.mp3" autoplay="autoplay" loop="loop" /></footer>
+<div id="QPlayer">
+<div id="pContent">
+	<div id="player">
+		<span class="cover"></span>
+		<div class="ctrl">
+			<div class="musicTag marquee">
+				<strong>Title</strong>
+				 <span> - </span>
+				<span class="artist">Artist</span>
+			</div>
+			<div class="progress">
+				<div class="timer left">0:00</div>
+				<div class="contr">
+					<div class="rewind icon"></div>
+					<div class="playback icon"></div>
+					<div class="fastforward icon"></div>
+				</div>
+				<div class="right">
+					<div class="liebiao icon"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ssBtn">
+	        <div class="adf"></div>
+    </div>
+</div>
+<ol id="playlist"></ol>
+</div>
+<script>
+	var	playlist = [
+{title:"Luv Letter",artist:"DJ Okawari",mp3:"https://zhenbangwang.oss-cn-shanghai.aliyuncs.com/bgm.mp3",cover:"https://p1.music.126.net/YXY1vPG5rtdV7w_cWDnNWw==/884007348732141.jpg?param=106y106",},
+];
+  var isRotate = true;
+  var autoplay = true;
+</script>
+<script src="i/player.js"></script>
+<script>
+
+function bgChange(){
+	var lis= $('.lib');
+	for(var i=0; i<lis.length; i+=2)
+	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+}
+window.onload = bgChange;
+</script>
+<footer>Copyright &copy; 2017 王震邦</footer>
 <script>
 var
 gitConfig={
