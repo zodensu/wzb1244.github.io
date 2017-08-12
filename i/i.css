@@ -16,6 +16,8 @@ a{
 body{
 	margin:0 auto;
 	max-width:40em;
+    	background: url(https://i.loli.net/2017/08/10/598c49fd7ac2a.jpg) center 0 no-repeat;
+    	background-size: cover;
 }
 
 xmp{

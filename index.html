@@ -11,19 +11,6 @@
 </header>
 <script src="https://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
 <script src="i/jquery.marquee.min.js"></script>
-<script>
-    $(document).ready(function($) {
-        var system = {};
-        var p = navigator.platform;
-        system.win = p.indexOf("Win") == 0;
-        system.mac = p.indexOf("Mac") == 0;
-        system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
-        if (system.win || system.mac || system.xll) {
-            $('#canvas').html('<script src="i/canvas.js"><\/script>');
-        }
-    });
-</script>
-<div id="canvas"></div>
 <section>
 	<xmp>
 	{{#posts}}
