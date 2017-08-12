@@ -16,8 +16,19 @@ a{
 body{
 	margin:0 auto;
 	max-width:40em;
-    	background: url(https://i.loli.net/2017/08/10/598c49fd7ac2a.jpg) center 0 no-repeat;
-    	background-size: cover;
+}
+
+body:before {
+    content: " ";
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(https://i.loli.net/2017/08/10/598c49fd7ac2a.jpg) center 0 no-repeat;
+    background-size: cover;
+    opacity: .2;
 }
 
 xmp{
