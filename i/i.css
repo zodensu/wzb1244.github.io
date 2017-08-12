@@ -1,4 +1,4 @@
-html{font:1em "Avenir Next",Avenir,"Helvetica Neue",Helvetica,"Lantinghei SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑", "STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;color:#222;}
+﻿html{font:1em "Avenir Next",Avenir,"Helvetica Neue",Helvetica,"Lantinghei SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑", "STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;color:#222;}
 
 
 textarea,input,option,select,button{font:inherit;}
@@ -211,4 +211,9 @@ html[step="article"] section{
 	text-decoration:none;
 	color:#999;
 	padding-bottom:5em;
+}
+.blog-logo img{
+	border-radius: 50%;
+	max-width: 200px;
+	border: 6px solid #FFFFFF;
 }
