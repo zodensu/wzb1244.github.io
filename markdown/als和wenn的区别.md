@@ -8,6 +8,28 @@
     |一次性|**als**|wenn（将来）|
     |多次性|wenn|wenn（现在）|
 
+	或下表：
+	
+<table border="1">
+<table border="1" 
+cellspacing="10">
+<tr>
+  <td> </td>
+  <td>过去</td>
+  <td>现在</td>
+</tr>
+<tr>
+  <td>一次性</td>
+  <td>als</td>
+  <td>wenn（将来）</td>
+</tr>
+<tr>
+  <td>多次性</td>
+  <td>wenn</td>
+  <td>wenn（现在）</td>
+</tr>
+</table>
+	
 # Übungen
 **1.Ergänzen Sie bitte als oder wenn !**
 
