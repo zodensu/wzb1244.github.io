@@ -1,10 +1,13 @@
 # 献给写作者的 Markdown 新手指南
 
-在此，我们总结 Markdown 的优点如下：
-- 纯文本，所以兼容性极强，可以用所有文本编辑器打开。
-- 让你专注于文字而不是排版。
-- 格式转换方便，Markdown的文本你可以轻松转换为html、电子书等。
-- Markdown的标记语法有极好的可读性。
+ 在此，我们总结 Markdown 的优点如下：
+ - 纯文本，所以兼容性极强，可以用所有文本编辑器打开。
+
+ - 让你专注于文字而不是排版。
+
+ - 格式转换方便，Markdown的文本你可以轻松转换为html、电子书等。
+ 
+ - Markdown的标记语法有极好的可读性。
 
 当然，我们既然如此推崇 Markdown ，也必定会教会你使用 Markdown ，这也是本文的目的所在。不过，虽然 Markdown 的语法已经足够简单，但是现有的 Markdown 语法说明更多的是写给 web 从业者看的，对于很多写作者来说，学习起来效率很低，现在，我们特地为写作者量身定做本指南，从写作者的实际需求出发，介绍写作者真正实用的常用格式，深入浅出、图文并茂地让您迅速掌握 Markdown 语法。
 
@@ -65,7 +68,7 @@ Atom这款软件很强大，可以说用它来写Markdown简直是**杀鸡焉用
 
 `![](http://upload-images.jianshu.io/upload_images/259-0ad0d0bfc1c608b6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)`
 
-*注：插入图片的语法和链接的语法很像，只是前面多了一个 ！*
+*注：插入图片的语法和链接的语法很像，只是前面多了一个 `!`*
 
 *插入链接和图片的案例截图：*
 ![](/img/format3.jpg)
@@ -118,11 +121,30 @@ Markdown 的粗体和斜体也非常简单，用两个 `*` 包含一段文本就
 ```
 
 显示效果：
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+
+<table border="1">
+<tr>
+  <td>Tables</td>
+  <td>Are </td>
+  <td>Cool </td>
+</tr>
+<tr>
+  <td> col 3 is      </td>
+  <td> right-aligned</td>
+  <td>$1600 </td>
+</tr>
+<tr>
+  <td> col 2 is   </td>
+  <td> centered </td>
+  <td> $12</td>
+</tr>
+<tr>
+  <td> zebra stripes</td>
+  <td> are neat  </td>
+  <td>  $1 </td>
+</tr>
+</table>
+
 
 相关代码：
 
@@ -133,11 +155,25 @@ foo | foo  | foo
 bar | bar  | bar
 baz | baz  | baz
 ```
-dog | bird | cat
-----|------|----
-foo | foo  | foo
-bar | bar  | bar
-baz | baz  | baz
+
+<table border="1">
+<tr>
+  <td>foo</td>
+  <td>foo</td>
+  <td>foo</td>
+</tr>
+<tr>
+  <td>bar</td>
+  <td>bar</td>
+  <td>bar</td>
+</tr>
+<tr>
+  <td>baz</td>
+  <td>baz</td>
+  <td>baz</td>
+</tr>
+</table>
+
 
 # 显示链接中带括号的图片
 `![此处写注释，就是当你把鼠标放在图片上时自动显示的文字](此处放地址)`
@@ -150,6 +186,7 @@ baz | baz  | baz
 ![在我的博客更新文件夹的最外层文件夹，所以我用的地址是“/img/”](/img/good.png)
 
 或者
+
 - 如下代码：
 
 ```
