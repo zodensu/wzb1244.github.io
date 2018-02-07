@@ -111,7 +111,7 @@ Markdown 的粗体和斜体也非常简单，用两个 `*` 包含一段文本就
 
 # 表格
 
-相关代码：
+相关代码1：
 ```
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -146,7 +146,7 @@ Markdown 的粗体和斜体也非常简单，用两个 `*` 包含一段文本就
 </table>
 
 
-相关代码：
+相关代码2：
 
 ```
 dog | bird | cat
@@ -155,6 +155,8 @@ foo | foo  | foo
 bar | bar  | bar
 baz | baz  | baz
 ```
+
+显示效果：
 
 <table border="1">
 <tr>
@@ -174,6 +176,51 @@ baz | baz  | baz
 </tr>
 </table>
 
+#### 如果此格式不能正确显示表格，可换用html的格式：
+
+代码如下：
+
+```
+<table border="1">
+<tr>
+  <td>foo</td>
+  <td>foo</td>
+  <td>foo</td>
+</tr>
+<tr>
+  <td>bar</td>
+  <td>bar</td>
+  <td>bar</td>
+</tr>
+<tr>
+  <td>baz</td>
+  <td>baz</td>
+  <td>baz</td>
+</tr>
+</table>
+```
+
+显示的内容会和上图一样：
+
+<table border="1">
+<tr>
+  <td>foo</td>
+  <td>foo</td>
+  <td>foo</td>
+</tr>
+<tr>
+  <td>bar</td>
+  <td>bar</td>
+  <td>bar</td>
+</tr>
+<tr>
+  <td>baz</td>
+  <td>baz</td>
+  <td>baz</td>
+</tr>
+</table>
+
+关于html表格的写法在[在此](http://www.w3school.com.cn/tags/tag_table.asp)
 
 # 显示链接中带括号的图片
 `![此处写注释，就是当你把鼠标放在图片上时自动显示的文字](此处放地址)`
