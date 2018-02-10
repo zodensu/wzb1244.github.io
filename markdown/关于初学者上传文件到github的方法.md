@@ -95,8 +95,8 @@ clone成功如下：
 
 最最后，初学者如果没有人手把手教过你，也就是没有最直接的经验者给你经验之前，建议多方查阅资料后经过思考之后再选择一个教程。因为系统因每个人的习惯而有所差别，有可能在别人的电脑上能顺利地一次成功，但在你的电脑上未必，这些小细节有因为为能及时意识到而耽误你的时间。
 
-以下是本文的参考资料：
-
+以下是本文的参考资料(首推第一个）：
+[手把手教新手小白在windows下把自己的项目上传到github](http://blog.csdn.net/qq_31852701/article/details/52944312)
 [git/github学习笔记](http://www.cnblogs.com/fnng/archive/2011/08/25/2153807.html)
 [git/github使用方法小记](http://artori.us/git-github-usage/)
 [在github上分享和展示你的小代码](https://serholiu.com/github-share-code)
