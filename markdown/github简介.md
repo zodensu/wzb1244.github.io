@@ -7,17 +7,11 @@
 
 本简介源码地址：https://github.com/zodensu/zodensu.github.io
 
-阅读过程中若遇到语法错误、拼写错误、技术错误等等，不妨来个Pull Request或者Issues，这样可以帮助到其他阅读这本电子书的同学。
+阅读过程中若遇到语法错误、拼写错误、技术错误等等，不妨来个Pull Request或者Issues，这样可以帮助到其他阅读这本电子书的同学。咳咳，下面正式介绍。
 
 # GitHub介绍
 
-[GitHub](https://github.com/) 是一家位于旧金山的公司，由 Chris Wanstrath、PJ Hyett 和 Tom Preston-Werner 三位开发者在2008年2月使用 [Ruby on Rails](http://rubyonrails.org/) 编写而成。
-
-GitHub同时提供付费账户和免费账户。这两种账户都可以创建公开的代码仓库，但是付费账户还可以创建私有的代码仓库。
-
-由于 [GitHub](https://github.com/) 在世界范围内具有非常非常大的影响力，导致 [GitHub](https://github.com/)  曾在中国、俄罗斯和印度等国被审查和封锁，虽然此网站是单纯的技术社区，一般不具政治敏感消息的特征，但相关代码可用于开发翻墙 [VPN](https://zh.wikipedia.org/zh-cn/%E8%99%9B%E6%93%AC%E7%A7%81%E4%BA%BA%E7%B6%B2%E8%B7%AF) 与反侦测等一系列在线隐蔽软件，而被许多法律设置严苛的政府盯上。
-
-2015年8月，中国政府进一步收紧对互联网的控制。22日，翻墙软件 `Shadowsocks` 作者迫于警方压力删除项目。25日，翻墙软件 `GoAgent` 作者自行删除自己的代码。同一天 [GitHub](https://github.com/) 再次遭到来自中国大陆的 `DDoS` 攻击。部分开发者认为此次攻击与中国政府有关。
+不展开介绍，详情请看[这里](https://darrenliuwei.com/git-github-tutorial/github/github-1.html)
 
 
 ## 全球顶级科技公司纷纷加入 GitHub ，并贡献他们自己的项目代码
@@ -135,6 +129,6 @@ git下载地址：https://git-scm.com/downloads
 
 这本书会持续更新，尽量让它与时俱进！
 
-本文章从[此处]((https://darrenliuwei.com/git-github-tutorial/))搬运而来。
+本文章从[此处](https://darrenliuwei.com/git-github-tutorial/)搬运而来。
 
 这本书是在GitHub上开源的，希望有兴趣的人能参与进来一起维护这本书！
