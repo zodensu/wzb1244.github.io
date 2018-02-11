@@ -3,7 +3,8 @@
 [TOC]
 
 说来也惭愧，我是最近开始用github，小白一个，昨天研究了一个下午。终于可以上传了，所以今天写点，一来分享是自己的一些经验，二来也是做个记录，万一哪天又不记得了:)
-废话不多说，直接来，这次主要介绍的是windows下的安装和使用。
+这里主要介绍的是windows下的安装和使用。
+**不过其实下面的步骤你都可以在最后我给的官方链接找到。所以，这里介绍的内容，你可以当作在看了官方教程之后仍不能解决问题的情况下，供参考。**
 
 ## 【第一步】建立先仓库
 第一步的话看一般的提示就知道了，在[github](https://github.com)新建一个repository（谷歌可以解决），都是可视化的界面操作，所以难度不大。或者看这里：[新建一个资料库](https://help.github.com/articles/create-a-repo) 这是官方help，虽然是英文的，但是基本都是图和代码，所以很容易读懂。
@@ -90,13 +91,34 @@ clone成功如下：
 
 ## 【结束】
 再次要强调这篇文章主要是对初学者的，也就我这种github菜鸟的。
+下面再记录一下各个命令的意思：
+  
+      ls -ah *查看目录下的文件夹*
+      git init *该命令将创建名为 .git 的隐藏的子目录，含有你初始化的 Git 仓库中所有的必须文件*
+      git remote add origin https://github.com/你的账号/.../.git *本地关联你的远程库*
+      git push -u origin master *把本地关联的内容推送到远程,# -u # 是第一次推送的时候写的在以后的推送或者拉取时就可以简化命令*
+      从现在起，只要本地作了提交，就可以通过命令：
+      git push origin master
+
+      小结
+      要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+      关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+      此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 
 最后感谢那些无私分享自己经验和知识的博主们.
 
 最最后，初学者如果没有人手把手教过你，也就是没有最直接的经验者给你经验之前，建议多方查阅资料后经过思考之后再选择一个教程。因为系统因每个人的习惯而有所差别，有可能在别人的电脑上能顺利地一次成功，但在你的电脑上未必，这些小细节有因为为能及时意识到而耽误你的时间。
 
-以下是本文的参考资料(首推第一个）：
+以下是本文的参考资料(首推第一个官方教程，官方教程也很简单）：
+
+[git官方教程](https://git-scm.com/book/zh/v2)
+
+[简易教程](http://blog.csdn.net/asklxf/article/details/10131835)
+
 [手把手教新手小白在windows下把自己的项目上传到github](http://blog.csdn.net/qq_31852701/article/details/52944312)
+
 [git/github学习笔记](http://www.cnblogs.com/fnng/archive/2011/08/25/2153807.html)
+
 [git/github使用方法小记](http://artori.us/git-github-usage/)
+
 [在github上分享和展示你的小代码](https://serholiu.com/github-share-code)
