@@ -42,6 +42,7 @@ Ruby：https://github.com/ruby/ruby
 ## 全球顶级编程大牛加入GitHub
 
 Linux 发明者 Linus Torvalds：https://github.com/torvalds
+
 ![Linux发明者](/img/Linux's-inventor.png)
 
 其他就不一一列举了，GitHub 上活跃的很多是 Google 、Square、阿里等公司的员工，有些甚至还是Google Android Team组的，所以在这里你可以接触到全球顶级编程大牛！
