@@ -35,7 +35,7 @@
      git clone https://github.com/findingsea/myRepoForBlog.git
 
 上面的地址可以在如下界面找到：
-![注意图片所示的内容最好完全一致](/img/trimeteach.jpg)
+![注意图片所示的内容最好完全一致](/img/trimeteach.png)
 
 把这个刚刚copy成功的地址**右键**粘贴在`git clone `后面，
 
