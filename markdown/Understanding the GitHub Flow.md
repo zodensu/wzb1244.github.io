@@ -1,6 +1,7 @@
 # Understanding the GitHub Flow
 
 GitHub Flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly. This guide explains how and why GitHub Flow works.
+*（if you can't understand English,there will be an anwser in the end.)*
 
 
 
@@ -72,4 +73,4 @@ Once merged, Pull Requests preserve a record of the historical changes to your c
 
 By incorporating certain keywords into the text of your Pull Request, you can associate issues with code. When your Pull Request is merged, the related issues are also closed. For example, entering the phrase` Closes #32` would close issue number 32 in the repository. For more information, check out our [help article](https://help.github.com/articles/closing-issues-via-commit-messages).
 
-This Article will be writing in Chinese throught [here](https://zodensu.github.io/#/github流（中文）.md).
+# This Article will be writing in Chinese throught [here](https://zodensu.github.io/#/github流（中文）.md).
