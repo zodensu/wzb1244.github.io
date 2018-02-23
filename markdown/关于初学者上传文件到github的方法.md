@@ -122,3 +122,7 @@ clone成功如下：
 [git/github使用方法小记](http://artori.us/git-github-usage/)
 
 [在github上分享和展示你的小代码](https://serholiu.com/github-share-code)
+
+另外，若从远程端更新了，想同步本地端：
+
+     git pull
