@@ -15,3 +15,12 @@ Lass mich jetzt über meine Ansichten zu dieser Nachricht reden. Zuerst stimme i
 
 Für die Dritte Frage: <font color=#F93A86 size=3>Tom:</font>
 Ich möchte ein Sache, die seit einigen Tags passiert, mit meine Meinung sprechen. Seit einigen Tags, hatte eine Chinesische Lehrerin in WeiBo seine rede ausgesprochen, Siesagte:„ 花四粥s Lied '盗将行' eine ganze Scheiße ! keine Logik, keine kulturelle Hiintergrung. “ Bevor sie die Reden aussprach, war ich das Lied gemocht. Aber dann, analysierte ich das Lied. Das hat natürlich einege komische Wörter. z.B. „趁擦肩把裙掀“ . das heißt warscheinlich: wenn das Mädchen mit seine Schulter reiben, förderte sofort der General ihre Rock//  der wenn jedermann mit seine Schulter reiben, wenn sit nicht mir sehen können, dann förderte der General seine millität Rock, um seiner Schweiß abzutrocken. Und z.B. „你的笑像一条恶犬“，“恶犬”ist ein sehr komisch Wort in traditionelle Gedicht und traditionellen Lied. Aber ich finde das es OK ist. Wenn seine Lied ist nur mit traditionelle Still benutzen. Und seine  Stimm ist gut. Auf keinen Fall, soll man nicht mit das Wort „Scheiße“ nach so ein Lied kritisieren. Das ist unhöflich. 
+
+
+
+<font color=#F93A86 size=3>Frau 周:</font>
+ 
+ Wir können neue Leute treffen.  Und wir lernen Deutsch zusammen. Aber ich fühle Einsam. Viele Leute plaudern und verwenden das Handy von Angesicht zu Angesicht.
+ Ich sah WECHAT keine Nachricht gehabt und ich fühle Einsam.
+  Einege Leute machen Thema und versuchen Junge Leute.
+ 
